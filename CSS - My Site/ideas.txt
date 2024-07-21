@@ -1,0 +1,16 @@
+<<<<<<< HEAD
+
+
+An idea would be to turn the projects page into an updatable in realtime portfolio using mongoose, by uploading an image
+description, a title, and a link. This way, I wont have to constantly update my whole site when I want to add something.
+
+For a general site idea, I would like to create an e-commerce where we sell mom's shirts and ideas online to willing purchasers.
+=======
+
+
+An idea would be to turn the projects page into an updatable in realtime portfolio using mongoose, by uploading an image
+description, a title, and a link. This way, I wont have to constantly update my whole site when I want to add something.
+
+For a general site idea, I would like to create an e-commerce where we sell mom's shirts and ideas online to willing purchasers.
+>>>>>>> f357e251ce3bbb1c31289385af42fe6d992db45c
+I would handle user authentication logins, inventory, etc. Might be above my head right now, but eventually, ill get it.

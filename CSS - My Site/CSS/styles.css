@@ -1,0 +1,1287 @@
+<<<<<<< HEAD
+body{
+    background-color: #F5EEDC;
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+}
+
+h1
+{
+    font-size: 5rem;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-family: 'Sacramento', cursive;
+    display: block;
+    top: 100px;
+    color: white;
+    line-height: 2;
+    text-shadow: 2px 2px 5px #000;
+}
+h2
+{
+    font-size: 2.5rem;
+    color: #069999;
+    font-weight: normal;
+}
+
+
+p{
+    font-size: 1.25rem;
+    font-family: "Montserrat", sans-serif;
+    display: block;
+    font-weight: 500;
+}
+
+a{
+    /*
+    color: #11999E;
+    
+    font-weight: 600;
+    margin: auto 5px 0 5px;
+    */
+    text-decoration: none;
+}
+
+hr
+{
+    border-style: dotted;
+    margin: 0px 40% 0px 40%;
+    border-width: 10px;
+    border-bottom: none;
+    border-color: #4F091D;
+    background:none;
+}
+
+.header-3
+{
+    color: #11999E;
+}
+
+.footer-link
+{
+    color: #11999E;
+    
+    font-weight: 600;
+    margin: auto 5px 0 5px;
+    text-decoration: none;
+}
+
+.jumbotron
+{
+    
+    color:black;
+    padding: 2.5% 5% 1% 5%;
+
+}
+
+.jumbotron.jtitle{
+    /* font-size: 10rem; */
+    font-size:10vw;
+}
+
+/* #title
+{
+    background-color: #4F091D;
+    width: 100%;
+    height: 100px;
+    position: relative;
+} */
+
+#title
+{
+    background-color: #4F091D;
+    color:white;
+    z-index: -1;
+    text-align: center;
+}
+.header-name
+{
+    font-size: 3rem;
+    margin: auto 50px auto 50px;
+}
+.buttonArea
+{
+    height: 50px;
+    width: 35%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+}
+.buttons
+{
+
+
+    border:none;
+    background:none;
+    bottom:0px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 1000;
+    color: #11999E;
+    
+    text-decoration:none;
+    padding-bottom: 5px;
+    right: 1px;
+    position:relative;
+}
+.selected-button
+{
+    color:#DD4A48;
+    font-size: 2.5rem;
+    font-style: italic;
+    font-family: "Montserrat" sans-serif;
+}
+
+.play-button
+{
+    color:#11999E;
+    font-size: 2.5rem;
+    font-style: italic;
+    font-family: "Montserrat" sans-serif;
+}
+
+.topContainer
+{
+    background-color: #97BFB4;
+    border-style: solid;
+    border-width: 0px 0px 5px 0px;    
+    height: 100%;
+    width: 100%;    
+    padding:20px 20px 0 20px;
+    padding-bottom: 0px;
+    text-align: center;
+    margin: 0 auto 0 auto;
+    position: relative;
+    /* background-image: url(/CSS\ -\ My\ Site/images/mountain.png); */
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 100%;
+    background-size: 75%;
+}
+.main-page
+{
+    background-color: #97BFB4;
+    border-style: solid;
+    border-width: 0px 0px 5px 0px;    
+    height: 1000px;
+
+}
+.gallery-container{
+    width: 60%;
+    margin: 2rem auto; 
+}
+.middleContainer
+{
+    text-align: center;
+    font-size: smaller;
+    padding: 20px;
+}
+
+.portfolio-container
+{
+    padding:20px 20px 20px 20px;
+    margin: 100px 200px 100px 200px;
+}
+
+.bottomContainer
+{
+    background-color:#4F091D;
+    padding: 20px;
+    margin: 0 auto 0 auto;
+    position: relative;
+    bottom: 0px;
+    color: #97BFB4;
+    text-align: center;
+}
+
+.contact-me
+{
+    padding:50px;
+}
+
+.pro
+{
+    text-decoration: underline;
+}
+
+.wrapper{
+    height: 100vh;
+    overflow-y:auto;
+    overflow-x: hidden;
+    perspective:10px;
+}
+
+header{
+    position:relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    transform-style: preserve-3d;
+    z-index:-1;
+}
+
+.subtitle{
+    display:block;
+    position: absolute;
+    top:60%;
+    color:white;
+    text-shadow: 2px 2px 5px #000;
+}
+
+.background-img, .foreground-img
+{
+    
+    position: absolute;
+    
+    object-fit: cover;
+    z-index: -1;
+}
+
+.background-img{
+    transform: translateZ(-10px)scale(2);
+    width: 110%;
+    height: 100%;
+}
+
+.foreground-img{
+    transform:translateZ(-5px)scale(1.5);
+    width:100%;
+    min-height: 100%;
+}
+
+#body{
+    background-color: #F5EEDC;
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+}
+
+.topCloud
+{
+    position: absolute;
+    right:300px;
+    top: 50px;
+}
+
+.bottomCloud
+{
+    position: absolute;
+    left: 200px;
+    top: 300px;
+
+}
+
+.skill-row
+{
+    width: 50%;
+    position: relative;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+@media(max-width: 1100px)
+{
+    .skill-row
+    {
+        /* margin:50px auto 50px auto; */
+        width: 100%;
+    }
+    .header-name
+    {
+        font-size: 2rem;
+        margin: auto 10px auto 10px;
+    }
+}
+
+
+.unityLogo
+{
+    width: 25%;
+    float:left;
+    margin-right: 30px;
+}
+
+.cSharpLogo
+{
+    width: 25%;
+    float:right;
+    margin-left: 30px;
+}
+
+.btn {
+    background: #DD4A48;
+    background-image: -webkit-linear-gradient(top, #DD4A48, #4F091D);
+    background-image: -moz-linear-gradient(top, #DD4A48, #4F091D);
+    background-image: -ms-linear-gradient(top, #DD4A48, #4F091D);
+    background-image: -o-linear-gradient(top, #DD4A48, #4F091D);
+    background-image: linear-gradient(to bottom, #DD4A48, #4F091D);
+    -webkit-border-radius: 19;
+    -moz-border-radius: 19;
+    border-radius: 19px;
+    -webkit-box-shadow: 0px 3px 11px #666666;
+    -moz-box-shadow: 0px 3px 11px #666666;
+    box-shadow: 0px 3px 11px #666666;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    }
+    
+
+.btn:hover {
+    background: #4F091D;
+    background-image: -webkit-linear-gradient(top, #4F091D, #DD4A48);
+    background-image: -moz-linear-gradient(top, #4F091D, #DD4A48);
+    background-image: -ms-linear-gradient(top, #4F091D, #DD4A48);
+    background-image: -o-linear-gradient(top, #4F091D, #DD4A48);
+    background-image: linear-gradient(to bottom, #4F091D, #DD4A48);
+    text-decoration: none;
+    
+    }
+
+.btn:active
+{
+
+    transform: scale(1.1);
+}
+
+.play-btn {
+    background: #11999E;
+    background-image: -webkit-linear-gradient(top, #069999, #03383a);
+    background-image: -moz-linear-gradient(top, #069999, #03383a);
+    background-image: -ms-linear-gradient(top, #069999, #03383a);
+    background-image: -o-linear-gradient(top, #069999, #03383a);
+    background-image: linear-gradient(to bottom, #069999, #03383a);
+    -webkit-border-radius: 19;
+    -moz-border-radius: 19;
+    border-radius: 19px;
+    -webkit-box-shadow: 0px 3px 11px #666666;
+    -moz-box-shadow: 0px 3px 11px #666666;
+    box-shadow: 0px 3px 11px #666666;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    }
+    
+
+.play-btn:hover {
+    background: #03383a;
+    background-image: -webkit-linear-gradient(top, #03383a, #069999);
+    background-image: -moz-linear-gradient(top, #03383a, #069999);
+    background-image: -ms-linear-gradient(top, #03383a, #069999);
+    background-image: -o-linear-gradient(top, #03383a, #069999);
+    background-image: linear-gradient(to bottom, #03383a, #069999);
+    text-decoration: none;
+    
+    }
+
+.play-btn:active
+{
+
+    transform: scale(1.1);
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 5vw);
+    grid-gap: 15px;
+}
+
+
+.gallery_item--1
+{
+    margin: 0;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.gallery_item--2
+{
+    margin: 0;
+    
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.gallery_item--3 {
+    background-image: url('/CSS\ -\ My\ Site/images/ColorFracture.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+.gallery_item--3:hover 
+{
+    background-image: url('/CSS\ -\ My\ Site/images/ColorFractureGameplay.gif');
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+
+.gallery_item--4
+{
+    margin: 0;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 6;
+}
+
+.gallery_item--5
+{
+    margin: 0;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 6;
+    grid-row-end: 9;
+}
+.gallery_item--6
+{
+    margin: 0;
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 6;
+    grid-row-end: 9;
+}
+
+.gallery_item--7
+{
+    margin: 0;
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 6;
+}
+.gallery_item--8
+{
+    margin: 0;
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+
+.projects
+{
+    width: 48%;
+    height: auto;
+
+    position: absolute;
+    display: block;
+    text-align: center;
+    color:white;
+    float:left;
+}
+
+.gallery_img
+{
+    margin: 2% 0;
+    width: 100%;
+    border-radius: 10px;
+    
+}
+
+.gallery_img:hover
+{
+    border-style: solid;
+    border-width: 5px;
+    border-color: #4F091D;
+    width: 101%;
+    
+}
+
+.gameTitle
+{
+    font-weight: 800;
+    font-size: 5rem;
+    position: absolute;
+    top: 0px;
+    margin: 50px auto 0px auto;
+    left: 0px;
+    right: 0px;
+}
+
+.topCenter
+{
+    position: absolute;
+    top:8px;
+    
+
+}
+
+.projects-list
+{
+    padding: 3% 10%;
+
+}
+
+.div-wrapper
+{
+    position:relative;
+
+}
+
+.site-card
+{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5%;
+    box-shadow: 0px 5px 20px 1px ;
+    padding:1rem;
+}
+
+.game-card
+{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5%;
+    box-shadow: 0px 5px 20px 1px black ;
+    padding:1rem;
+    
+}
+
+.card-title
+{
+    font-weight: 700;
+
+}
+
+.card-img
+{
+    border-radius: 5px;
+}
+
+.jumbo-container
+{
+    height:800px;
+
+}
+
+#mountain
+{
+    
+    margin: 0 auto 0 auto;
+    max-width: 100%;
+    max-height: 100%;
+    width: 1000px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    
+}
+
+#project1
+{
+
+    margin: 10px 5% 1% 1%;
+    position: absolute;
+    float:left;
+}
+
+#project2
+{
+    float:left;
+    margin: 10px 1% 1% 1%;
+    position: absolute;
+}
+#project3
+{
+    float:left;
+    margin: 10px 1% 5% 1%;
+    position: absolute;
+}
+
+#video-game-projects-grid
+{
+    position: relative;
+    opacity: 1;
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    -ms-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
+
+}
+#video-game-projects-grid.fade{
+    opacity: 0;
+
+}
+
+#website-projects-grid
+{
+    position: relative;
+    opacity: 1;
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    -ms-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
+
+}
+#website-projects-grid.fade{
+    opacity: 0;
+
+}
+ 
+=======
+body{
+    background-color: #F5EEDC;
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+}
+
+h1
+{
+    font-size: 5rem;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-family: 'Sacramento', cursive;
+    display: block;
+    top: 100px;
+    color: white;
+    line-height: 2;
+    text-shadow: 2px 2px 5px #000;
+}
+h2
+{
+    font-size: 2.5rem;
+    color: #069999;
+    font-weight: normal;
+}
+
+
+p{
+    font-size: 1.25rem;
+    font-family: "Montserrat", sans-serif;
+    display: block;
+    font-weight: 500;
+}
+
+a{
+    /*
+    color: #11999E;
+    
+    font-weight: 600;
+    margin: auto 5px 0 5px;
+    */
+    text-decoration: none;
+}
+
+hr
+{
+    border-style: dotted;
+    margin: 0px 40% 0px 40%;
+    border-width: 10px;
+    border-bottom: none;
+    border-color: #4F091D;
+    background:none;
+}
+
+.header-3
+{
+    color: #11999E;
+}
+
+.footer-link
+{
+    color: #11999E;
+    
+    font-weight: 600;
+    margin: auto 5px 0 5px;
+    text-decoration: none;
+}
+
+.jumbotron
+{
+    
+    color:black;
+    padding: 2.5% 5% 1% 5%;
+
+}
+
+.jumbotron.jtitle{
+    /* font-size: 10rem; */
+    font-size:10vw;
+}
+
+/* #title
+{
+    background-color: #4F091D;
+    width: 100%;
+    height: 100px;
+    position: relative;
+} */
+
+#title
+{
+    background-color: #4F091D;
+    color:white;
+    z-index: -1;
+    text-align: center;
+}
+.header-name
+{
+    font-size: 3rem;
+    margin: auto 50px auto 50px;
+}
+.buttonArea
+{
+    height: 50px;
+    width: 35%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+}
+.buttons
+{
+
+
+    border:none;
+    background:none;
+    bottom:0px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 1000;
+    color: #11999E;
+    
+    text-decoration:none;
+    padding-bottom: 5px;
+    right: 1px;
+    position:relative;
+}
+.selected-button
+{
+    color:#DD4A48;
+    font-size: 2.5rem;
+    font-style: italic;
+    font-family: "Montserrat" sans-serif;
+}
+
+.play-button
+{
+    color:#11999E;
+    font-size: 2.5rem;
+    font-style: italic;
+    font-family: "Montserrat" sans-serif;
+}
+
+.topContainer
+{
+    background-color: #97BFB4;
+    border-style: solid;
+    border-width: 0px 0px 5px 0px;    
+    height: 100%;
+    width: 100%;    
+    padding:20px 20px 0 20px;
+    padding-bottom: 0px;
+    text-align: center;
+    margin: 0 auto 0 auto;
+    position: relative;
+    /* background-image: url(/CSS\ -\ My\ Site/images/mountain.png); */
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 100%;
+    background-size: 75%;
+}
+.main-page
+{
+    background-color: #97BFB4;
+    border-style: solid;
+    border-width: 0px 0px 5px 0px;    
+    height: 1000px;
+
+}
+.gallery-container{
+    width: 60%;
+    margin: 2rem auto; 
+}
+.middleContainer
+{
+    text-align: center;
+    font-size: smaller;
+    padding: 20px;
+}
+
+.portfolio-container
+{
+    padding:20px 20px 20px 20px;
+    margin: 100px 200px 100px 200px;
+}
+
+.bottomContainer
+{
+    background-color:#4F091D;
+    padding: 20px;
+    margin: 0 auto 0 auto;
+    position: relative;
+    bottom: 0px;
+    color: #97BFB4;
+    text-align: center;
+}
+
+.contact-me
+{
+    padding:50px;
+}
+
+.pro
+{
+    text-decoration: underline;
+}
+
+.wrapper{
+    height: 100vh;
+    overflow-y:auto;
+    overflow-x: hidden;
+    perspective:10px;
+}
+
+header{
+    position:relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    transform-style: preserve-3d;
+    z-index:-1;
+}
+
+.subtitle{
+    display:block;
+    position: absolute;
+    top:60%;
+    color:white;
+    text-shadow: 2px 2px 5px #000;
+}
+
+.background-img, .foreground-img
+{
+    
+    position: absolute;
+    
+    object-fit: cover;
+    z-index: -1;
+}
+
+.background-img{
+    transform: translateZ(-10px)scale(2);
+    width: 110%;
+    height: 100%;
+}
+
+.foreground-img{
+    transform:translateZ(-5px)scale(1.5);
+    width:100%;
+    min-height: 100%;
+}
+
+#body{
+    background-color: #F5EEDC;
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+}
+
+.topCloud
+{
+    position: absolute;
+    right:300px;
+    top: 50px;
+}
+
+.bottomCloud
+{
+    position: absolute;
+    left: 200px;
+    top: 300px;
+
+}
+
+.skill-row
+{
+    width: 50%;
+    position: relative;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+@media(max-width: 1100px)
+{
+    .skill-row
+    {
+        /* margin:50px auto 50px auto; */
+        width: 100%;
+    }
+    .header-name
+    {
+        font-size: 2rem;
+        margin: auto 10px auto 10px;
+    }
+}
+
+
+.unityLogo
+{
+    width: 25%;
+    float:left;
+    margin-right: 30px;
+}
+
+.cSharpLogo
+{
+    width: 25%;
+    float:right;
+    margin-left: 30px;
+}
+
+.btn {
+    background: #DD4A48;
+    background-image: -webkit-linear-gradient(top, #DD4A48, #4F091D);
+    background-image: -moz-linear-gradient(top, #DD4A48, #4F091D);
+    background-image: -ms-linear-gradient(top, #DD4A48, #4F091D);
+    background-image: -o-linear-gradient(top, #DD4A48, #4F091D);
+    background-image: linear-gradient(to bottom, #DD4A48, #4F091D);
+    -webkit-border-radius: 19;
+    -moz-border-radius: 19;
+    border-radius: 19px;
+    -webkit-box-shadow: 0px 3px 11px #666666;
+    -moz-box-shadow: 0px 3px 11px #666666;
+    box-shadow: 0px 3px 11px #666666;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    }
+    
+
+.btn:hover {
+    background: #4F091D;
+    background-image: -webkit-linear-gradient(top, #4F091D, #DD4A48);
+    background-image: -moz-linear-gradient(top, #4F091D, #DD4A48);
+    background-image: -ms-linear-gradient(top, #4F091D, #DD4A48);
+    background-image: -o-linear-gradient(top, #4F091D, #DD4A48);
+    background-image: linear-gradient(to bottom, #4F091D, #DD4A48);
+    text-decoration: none;
+    
+    }
+
+.btn:active
+{
+
+    transform: scale(1.1);
+}
+
+.play-btn {
+    background: #11999E;
+    background-image: -webkit-linear-gradient(top, #069999, #03383a);
+    background-image: -moz-linear-gradient(top, #069999, #03383a);
+    background-image: -ms-linear-gradient(top, #069999, #03383a);
+    background-image: -o-linear-gradient(top, #069999, #03383a);
+    background-image: linear-gradient(to bottom, #069999, #03383a);
+    -webkit-border-radius: 19;
+    -moz-border-radius: 19;
+    border-radius: 19px;
+    -webkit-box-shadow: 0px 3px 11px #666666;
+    -moz-box-shadow: 0px 3px 11px #666666;
+    box-shadow: 0px 3px 11px #666666;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    }
+    
+
+.play-btn:hover {
+    background: #03383a;
+    background-image: -webkit-linear-gradient(top, #03383a, #069999);
+    background-image: -moz-linear-gradient(top, #03383a, #069999);
+    background-image: -ms-linear-gradient(top, #03383a, #069999);
+    background-image: -o-linear-gradient(top, #03383a, #069999);
+    background-image: linear-gradient(to bottom, #03383a, #069999);
+    text-decoration: none;
+    
+    }
+
+.play-btn:active
+{
+
+    transform: scale(1.1);
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 5vw);
+    grid-gap: 15px;
+}
+
+
+.gallery_item--1
+{
+    margin: 0;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.gallery_item--2
+{
+    margin: 0;
+    
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.gallery_item--3 {
+    background-image: url('/CSS\ -\ My\ Site/images/ColorFracture.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+.gallery_item--3:hover 
+{
+    background-image: url('/CSS\ -\ My\ Site/images/ColorFractureGameplay.gif');
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+
+.gallery_item--4
+{
+    margin: 0;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 6;
+}
+
+.gallery_item--5
+{
+    margin: 0;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 6;
+    grid-row-end: 9;
+}
+.gallery_item--6
+{
+    margin: 0;
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 6;
+    grid-row-end: 9;
+}
+
+.gallery_item--7
+{
+    margin: 0;
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 6;
+}
+.gallery_item--8
+{
+    margin: 0;
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+
+.projects
+{
+    width: 48%;
+    height: auto;
+
+    position: absolute;
+    display: block;
+    text-align: center;
+    color:white;
+    float:left;
+}
+
+.gallery_img
+{
+    margin: 2% 0;
+    width: 100%;
+    border-radius: 10px;
+    
+}
+
+.gallery_img:hover
+{
+    border-style: solid;
+    border-width: 5px;
+    border-color: #4F091D;
+    width: 101%;
+    
+}
+
+.gameTitle
+{
+    font-weight: 800;
+    font-size: 5rem;
+    position: absolute;
+    top: 0px;
+    margin: 50px auto 0px auto;
+    left: 0px;
+    right: 0px;
+}
+
+.topCenter
+{
+    position: absolute;
+    top:8px;
+    
+
+}
+
+.projects-list
+{
+    padding: 3% 10%;
+
+}
+
+.div-wrapper
+{
+    position:relative;
+
+}
+
+.site-card
+{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5%;
+    box-shadow: 0px 5px 20px 1px ;
+    padding:1rem;
+}
+
+.game-card
+{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5%;
+    box-shadow: 0px 5px 20px 1px black ;
+    padding:1rem;
+    
+}
+
+.card-title
+{
+    font-weight: 700;
+
+}
+
+.card-img
+{
+    border-radius: 5px;
+}
+
+.jumbo-container
+{
+    height:800px;
+
+}
+
+#mountain
+{
+    
+    margin: 0 auto 0 auto;
+    max-width: 100%;
+    max-height: 100%;
+    width: 1000px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    
+}
+
+#project1
+{
+
+    margin: 10px 5% 1% 1%;
+    position: absolute;
+    float:left;
+}
+
+#project2
+{
+    float:left;
+    margin: 10px 1% 1% 1%;
+    position: absolute;
+}
+#project3
+{
+    float:left;
+    margin: 10px 1% 5% 1%;
+    position: absolute;
+}
+
+#video-game-projects-grid
+{
+    position: relative;
+    opacity: 1;
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    -ms-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
+
+}
+#video-game-projects-grid.fade{
+    opacity: 0;
+
+}
+
+#website-projects-grid
+{
+    position: relative;
+    opacity: 1;
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    -ms-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
+
+}
+#website-projects-grid.fade{
+    opacity: 0;
+
+}
+ 
+>>>>>>> f357e251ce3bbb1c31289385af42fe6d992db45c
